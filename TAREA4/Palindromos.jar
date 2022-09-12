@@ -1,0 +1,21 @@
+public class palindromos
+{
+public static void main( String args[]){
+
+int [][] hora;
+int i ,j ;
+
+hora = new int [][];
+
+for (i= 0; i< hora.length; i++){
+    for (j=0 ; j< hora[i].length;j++){
+      hora[i][j]=0;
+      System.out.print(hora[i][j] + "");
+    }
+System.out.print("\n")
+  }
+
+
+
+  }
+}
